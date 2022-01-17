@@ -13,9 +13,6 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
       <Button appearance='primary' arrow='down'>Кнопка</Button>
       <Button appearance='ghost'>Кнопка</Button>
       <Rating rating={rating} isEditable setRating={setRating}/>
-     <ul>
-       {menu.map(m => <li key={m._id.secondCategory}>{m._id.secondCategory}</li>)}
-     </ul>
     </>
   );
 }
